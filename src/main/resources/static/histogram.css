@@ -2,8 +2,21 @@
     display:flex;
 }
 
+@font-face {
+    font-family: 'Nimbus Sans Thai';
+    src: url('fonts/NimbusSanL-Reg.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Georgia Pro Semibold';
+    src: url('fonts/GeorgiaPro-Semibold.ttf') format('truetype');
+}
+
 h1 {
     font-size: 25px;
+    font-family: 'Nimbus Sans Thai', Arial, sans-serif;
+    font-weight:600;
+    content:'\f508';
 }
 
 input {
@@ -14,11 +27,12 @@ input {
 
 h2 {
     color:#B5131A;
-    font-family: "Georgia Pro", Georgia, serif;
+    font-family: "Georgia Pro Semibold", Georgia, serif;
     margin-left: 10px;
     margin-top: 10px;
     display: inline-block;
     font-size:15px;
+    font-weight:900px;
 }
 
 .main-box {
@@ -27,6 +41,8 @@ h2 {
     margin-right: 10px;
     margin-top: 10px;
     padding-bottom: 20px;
+    border-radius:3px;
+    border:1px solid #63c7ef1a;
 }
 
 table {
@@ -39,12 +55,17 @@ table {
 }
 
 #new-grade {
-    padding-bottom:130px;
+    padding-bottom:140px;
+}
+
+.tally {
+    color: #B5131A;
 }
 
 td {
     font-size: 13px;
-    font-weight: bold;
+    font-weight: 400;
+    font-family: "Georgia Pro Semibold", Georgia, serif;
 }
 
 .left-td {
@@ -56,8 +77,20 @@ label {
     margin-left: 10px;
     margin-top: 20px;
     display: inline-block;
+    font-family: "Georgia Pro Semibold", Georgia, serif;
+    font-size: 12px;
 }
 
 #grade-input {
     width: 100px;
+}
+
+input {
+    font-family: "Georgia Pro Semibold", Georgia, serif;
+    font-size: 11px;
+    padding:3px;
+}
+
+.icon-class {
+    margin-right:3px;
 }

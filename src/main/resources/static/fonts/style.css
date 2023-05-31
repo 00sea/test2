@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Georgia Pro';
+    src: local('Georgia Pro Semibold'), local('Georgia-Pro-Semibold'),
+        url('GeorgiaPro-Semibold.woff2') format('woff2'),
+        url('GeorgiaPro-Semibold.woff') format('woff'),
+        url('GeorgiaPro-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
